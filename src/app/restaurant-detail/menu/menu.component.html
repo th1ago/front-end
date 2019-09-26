@@ -1,0 +1,11 @@
+<div class="col-md-9 col-xs-12">
+  <div >
+    <!-- toda vez que for output deve encapsular (add)-->
+    <!-- resgatar o que foi passado por param atrasves do $event -->
+    <app-menu-item (add)="carrinho.add($event)" [menuItem]="menu"></app-menu-item>
+  </div>
+</div>
+
+<div class="col-md-3 col-xs-12">
+  <app-cart #carrinho></app-cart>
+</div>

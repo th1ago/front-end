@@ -1,0 +1,5 @@
+<div class="form-group" [class.has-success]="valido()" [class.has-error]="invalido()">
+
+  <ng-content></ng-content>
+  <span *ngIf="invalido()">{{mensagem}}</span>
+</div>
