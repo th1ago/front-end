@@ -2,8 +2,7 @@ import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-menu-item',
-  templateUrl: './menu-item.component.html',
-  styleUrls: ['./menu-item.component.css']
+  templateUrl: './menu-item.component.html'
 })
 export class MenuItemComponent implements OnInit {
   @Input() menuItem;
