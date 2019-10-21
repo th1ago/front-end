@@ -4,8 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-restaurant-detail',
-  templateUrl: './restaurant-detail.component.html',
-  styleUrls: ['./restaurant-detail.component.css']
+  templateUrl: './restaurant-detail.component.html'
 })
 export class RestaurantDetailComponent implements OnInit {
   public detail: any;
